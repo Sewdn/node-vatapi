@@ -1,0 +1,43 @@
+{
+  "name": "vatapi",
+  "version": "0.1.0",
+  "description": "vatapi.com API Nodejs library.",
+  "main": "lib/index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "DEBUG=slumber:api,vatapi:* ./node_modules/.bin/mocha tests",
+    "build": "./node_modules/.bin/cake build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sewdn/node-vatapi"
+  },
+  "dependencies": {
+    "debug": "*",
+    "slumber": ">=0.7.0"
+  },
+  "devDependencies": {
+    "coffee-script": ">=1.9.1",
+    "mocha": "",
+    "proxyquire": "~1.0.1",
+    "chai": "~1.9.2",
+    "sinon": "~1.10.3",
+    "sinon-chai": "~2.6.0"
+  },
+  "keywords": [
+    "vatapi",
+    "vat",
+    "btw",
+    "gst",
+    "api",
+    "http"
+  ],
+  "author": "Pieter Soudan <pieter.soudan@redandivory.be>",
+  "contributors": [
+  ],
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
