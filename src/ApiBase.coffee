@@ -15,4 +15,4 @@ class module.exports.ApiBase
     debug "init()"
     @vat            = require('./Models/Vat')           @client
     @varia          = require('./Models/Varia')         @client
-    # @invoice        = require('./Models/Invoice')       @client
+    @invoice        = require('./Models/Invoice')       @client
