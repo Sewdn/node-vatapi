@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "debug": "*",
-    "slumber": ">=0.8.0"
+    "slumber": "git://github.com/Sewdn/node-slumber.git#master"
   },
   "devDependencies": {
     "coffee-script": ">=1.9.1",

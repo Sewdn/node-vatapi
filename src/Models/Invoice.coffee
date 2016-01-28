@@ -14,8 +14,8 @@ class Invoice extends BaseModel
     @debug "Invoice::update(#{invoiceId}, #{body})"
     @put "invoice/" + invoiceId, body, (err, data) -> fn err, data if fn
 
-  delete: (invoiceId, fn = null) =>
-    @debug "Invoice::delete(#{invoiceId})"
-    @delete "invoice/" + invoiceId, {}, (err, data) -> fn err, data if fn
+  remove: (invoiceId, fn = null) =>
+    @debug "Invoice::remove(#{invoiceId})"
+    @delete "invoice/" + invoiceId, (err, data) -> fn err, data if fn
 
 module.exports = (client) -> new Invoice client
